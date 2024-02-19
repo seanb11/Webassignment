@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSS-Cascading Style Sheet</title>
+<style type="text/css">
+	body
+	{
+	height: 1000px;
+	background: #595959;}
+	
+	#wrapper
+	{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1500px;
+	height: 1000px;
+	border-radius: 25px 25px 25px 25px;
+	background: #C5C5C5; 
+	}
+	
+	header
+	{
+	text-align: center;
+	width: 1500px;
+	height: 200px;
+	border-radius: 25px 25px 0px 0px;
+	border: 3px solid #000;
+	background: #D9D9D9;
+	}
+	
+	nav
+	{
+	width: 1500px;
+	height: 120px;
+	border-right: 3px solid #000;
+	border-bottom: 3px solid #000;
+	border-left: 3px solid #000;
+	background: #DBB;
+	}
+	
+	main
+	{
+	width: 896px;
+	height: 580px;
+	border: 1px solid #6F6F6F;
+	background: #F9F1F1;
+	float: left
+	}
+	
+	aside
+	{
+	width: 600px;
+	height: 580px;
+	border: 1px solid #261212;
+	background: #DBB;
+	float: left
+	}
+	
+	footer
+	{
+	clear: both;
+	width: 1500px;
+	height: 100px;
+	border-radius: 0px 0px 25px 25px;
+	background: url("images/Footer-Image.png");
+	}
+	h1
+	{
+	color: #121212;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: uppercase;
+	}
+	h2
+	{
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	width: 548px;
+	height: 47px;
+	color: #121212;
+
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	}
+	h3
+	{
+	color: #259B4D;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;	
+	}
+	
+	.stand-outstyle
+	{
+	color: #ACACAC;
+	font-family: "Average Sans";
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	}
+	
+nav	ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+	
+} 
+nav	li {
+		float: left;
+		border-right:1px solid #bbb;
+
+}
+	
+nav li a {
+  display: block;
+  padding: 14px 16px;
+  background-color: #B3A8A8;
+  color: #FFFFFF;
+  text-align: center;
+	
+ 
+  text-decoration: none;
+
+}
+	a:link{color:#B9B9B9;}
+	a:visited{color:#B9B9B9;}
+	a:hover{background-color:#3BAA63;
+	text-decoration:underline;}
+	a:active{color:#B9B9B9;}
+	
+	
+	 section ul {
+	list-style:url("images/bullet 3.png")
+	}
+	
+	
+	
+</style>
+</head>
+
+<body>
+<div id="wrapper">
+	
+<header>
+	<h1>CSS Cascading Style Sheet</h1>
+</header>
+  <nav>
+	<h2>The Navigation</h2>
+	  <ul>
+	<li><a href="#">Link 1</a></li>
+	<li><a href="#">Link 2</a></li>
+	<li><a href="#">Link 3</a></li>
+	<li><a href="index.html">Home</a></li>
+	  
+	  
+	  
+	  </ul>
+	
+	
+  </nav>
+  <main>
+	  <h2>The Main</h2>
+	<section>
+	  <h3>This is my h3 tag style</h3>
+    </section>
+    <section>
+	  <p class="stand-outstyle">Stand-out style applied in this paragraph. Stand-out style applied here. Stand-out style applied here.</p>
+    </section>
+    <section>
+	  <ul>
+		<li>Peugeot 308</li>
+		 <li>Peugeot 308</li>
+		  <li>Peugeot 308</li>
+		  <li>Peugeot 308</li>
+		  
+</ul>
+	  </section>
+  </main>
+  <aside>
+	<h2>The Aside</h2>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque ipsum, tempora rem in sed quaerat illum quisquam aliquam atque. Doloremque, impedit explicabo dolorum nobis delectus voluptatum voluptas nisi soluta ducimus.</p>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda doloremque dolor, magnam unde ipsum accusantium ratione consectetur a esse enim! Natus harum vitae doloribus quasi, ea similique architecto saepe qui.</p>
+  </aside>
+  <footer>
+	<h2>The Footer &copy; Sean 2024</h2>
+  </footer>
+	
+</div>
+</body>
+</html>
